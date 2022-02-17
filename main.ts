@@ -1,6 +1,6 @@
 pins.onPulsed(DigitalPin.P1, PulseValue.High, function () {
-    let light = pins.P2.analogRead()
-    if (light >= 500) {
+    let light1 = pins.P2.analogRead()
+if (light1 >= 500) {
         basic.showLeds(`
             . . . . .
             . . . . #
